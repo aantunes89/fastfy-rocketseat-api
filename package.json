@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/server.ts",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "start": "node src/server.ts",
@@ -20,6 +23,7 @@
     "dotenv": "^18.0.4",
     "fastify": "^5.12.5",
     "knex": "^3.3.0",
+    "pg": "^8.23.1",
     "sqlite3": "^6.0.1",
     "typescript": "^5.7.3",
     "zod": "^4.6.5"
